@@ -1,6 +1,15 @@
-# Yii2 Predis Extension
+# Yii2 Redis Extension
 
-### Yii2官方的redis 功能太弱，不能主从不能集群，现在用第三方Predis类库来操作redis，没有实现ActiveRecord功能
+### Yii2官方的redis扩展功能太弱，不能主从不能集群，现在用第三方Predis类库来实现。
+
+## 注意
+实现支持session
+
+实现支持cache
+
+未实现ActiveRecord
+
+有些redis命令在集群等模式不可用
 
 ## 安装
 
